@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 if(UserType.equals("Councellor"))
                 {
                     new  loginCouncellor().execute(Username, Password);
+
                 }
             }
         });
